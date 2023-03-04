@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sockets</title>
+</head>
+<body>
+    <duv class="username-container">
+        <input type="text" class="form__input" name="username" id="username" placeholder="Tu nombre">
+    </duv>
+    <div class="chat-container" data-bs-spy="scroll">
+        <div class="chat">
+           
+            <div class="messages">
+                <div class="messages-content" id="messages"></div>
+            </div>
+
+            <div class="actions" id="actions"></div>
+            <div class="message-box"> 
+                <form>
+                    <input type="text" id="text" class="message-input" placeholder="Type message..."></input>
+                    <button id="form" class="message-submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
